@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="您好" />
+    <example.com.xybarrage.demoone.MyBarrageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#33333333"
+        android:id="@+id/ll">
+    </example.com.xybarrage.demoone.MyBarrageView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-=弹幕=-"
+        android:onClick="addView"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="stop"
+            android:onClick="stop"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="start"
+            android:onClick="start"/>
+    </LinearLayout>
+</LinearLayout>

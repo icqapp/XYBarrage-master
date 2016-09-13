@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">XYBarrage</string>
+    <string name="default_text">这个是默认显示的内容</string>
+</resources>
